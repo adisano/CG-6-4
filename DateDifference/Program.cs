@@ -39,7 +39,7 @@ namespace DateDifference
             double dayDifference = dateDifference.TotalDays;
 
             //display dateDifference
-            Console.WriteLine(dayDifference);
+            Console.WriteLine("There are " + dayDifference " days between these two dates.");
 
             //keep the program open
             Console.ReadLine();
